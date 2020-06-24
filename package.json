@@ -1,0 +1,13 @@
+{
+  "name": "my-first-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Donghyeon Kim",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
